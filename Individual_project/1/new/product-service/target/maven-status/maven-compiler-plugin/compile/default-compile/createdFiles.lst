@@ -1,0 +1,10 @@
+com\freshsip\productservice\Items.class
+com\freshsip\productservice\CrossConfig$1.class
+com\freshsip\productservice\ItemDTO.class
+com\freshsip\productservice\ProductDTO.class
+com\freshsip\productservice\ProductServiceApplication.class
+com\freshsip\productservice\CrossConfig.class
+com\freshsip\productservice\ItemController.class
+com\freshsip\productservice\ItemRepo.class
+com\freshsip\productservice\ItemServices$1.class
+com\freshsip\productservice\ItemServices.class

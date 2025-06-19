@@ -1,0 +1,10 @@
+com\freshsip\reviewservice\CrossConfig$1.class
+com\freshsip\reviewservice\CrossConfig.class
+com\freshsip\reviewservice\ReviewRepository.class
+com\freshsip\reviewservice\ReviewServiceApplication.class
+com\freshsip\reviewservice\ReviewController.class
+com\freshsip\reviewservice\ReviewServiceIMPL.class
+com\freshsip\reviewservice\Review.class
+com\freshsip\reviewservice\ReviewDTO.class
+com\freshsip\reviewservice\ReviewService.class
+com\freshsip\reviewservice\UserDTO.class

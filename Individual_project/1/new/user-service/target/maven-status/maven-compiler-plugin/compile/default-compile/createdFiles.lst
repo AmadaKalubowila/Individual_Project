@@ -1,0 +1,13 @@
+com\freshsip\userservice\UserRepository.class
+com\freshsip\userservice\JWTUtils.class
+com\freshsip\userservice\UserManagementService.class
+com\freshsip\userservice\User.class
+com\freshsip\userservice\SecurityConfig.class
+com\freshsip\userservice\UserDTO.class
+com\freshsip\userservice\CrossConfig$1.class
+com\freshsip\userservice\UserServiceApplication.class
+com\freshsip\userservice\UserController.class
+com\freshsip\userservice\JWTAuthFilter.class
+com\freshsip\userservice\UserManagementServiceImpl.class
+com\freshsip\userservice\CrossConfig.class
+com\freshsip\userservice\UserServiceImpl.class

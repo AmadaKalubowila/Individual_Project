@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: FreshSip
+    ports:
+      - "3306:3306"
+    volumes:
+      - new_mysql_data:/var/lib/mysql
+
+  user-service:
+    build: ./user-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mysql
+      - redis
+
+  order-service:
+    build: ./order-service
+    ports:
+      - "8082:8082"
+    depends_on:
+      - mysql
+      - redis
+
+  product-service:
+    build: ./product-service
+    ports:
+      - "8083:8083"
+    depends_on:
+      - mysql
+      - redis
+
+  bill-service:
+    build: ./bill-service
+    ports:
+      - "8084:8084"
+    depends_on:
+      - mysql
+      - redis
+
+  review-service:
+    build: ./review-service
+    ports:
+      - "8085:8085"
+    depends_on:
+      - mysql
+      - redis
+
+volumes:
+  new_mysql_data:
+    name: new_mysql_data
+
